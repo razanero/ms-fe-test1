@@ -13,7 +13,8 @@
     'depends': ['base', 'account', 'sale'],
     'data': [
         'data/account_invoice_control_cron.xml',
-        'views/account_view.xml'
+        'views/account_view.xml',
+        'security/ir.model.access.csv'
     ],
     'application': False,
     "installable": True
