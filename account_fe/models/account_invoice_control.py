@@ -14,6 +14,7 @@ class AccountControl(models.Model):
     _name = "account.invoice.control"
     _description = "Invoice Control"
 
+
     invoice_id = fields.Integer(help="invoice id.")
     state = fields.Char(string='Estado del envio',
                         help="lista de estados")
